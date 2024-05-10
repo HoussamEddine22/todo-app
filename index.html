@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="todo_div">
+      <h1 id="todoListHeader">Todo List : <b id="todoListCount">0</b></h1>
+      <hr />
+
+      <input
+        id="inputText"
+        type="text"
+        placeholder="add item..."
+        autocomplete="off"
+        autofocus="on" />
+
+      <button class="add_button">add</button>
+      <button class="clearAll">Clear All</button>
+      <div class="todo_items">
+        <ul id="todo_lists"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
